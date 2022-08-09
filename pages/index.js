@@ -9,4 +9,14 @@ export default function Home() {
 			title: "Manage landing page",
 		},
 	};
+	return (
+		<div className={styles.container}>
+			<Head>
+				<title>{data.seo.title}</title>
+				<meta name="description" content={data.seo.metaDescription} />
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
+
+		</div>
+	);
 }
