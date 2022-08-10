@@ -14,7 +14,7 @@ function Header({ linkedPages }) {
 				</a>
 			</h1>
 			<button
-				style={{ backgroundImage: `url(${MenuButton})` }}
+				style={{ backgroundImage: `url(${MenuButton.src})` }}
 				className="toggle-mobile-menu"
 				title="Open mobile menu"
 			></button>
