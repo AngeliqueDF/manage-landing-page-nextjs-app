@@ -5,7 +5,8 @@ import Image from "next/image";
 import CallToActionButton from "./CallToActionButton";
 
 import Logo from "./../../public/images/logo.svg";
-import MenuButton from "./../../public/images/icon-hamburger.svg";
+import ClosedMenuButton from "./../../public/images/icon-hamburger.svg";
+import OpenMenuButton from "./../../public/images/icon-close.svg";
 
 function Header({ linkedPages }) {
 	// Fix reference error, document is undefined
@@ -36,7 +37,11 @@ function Header({ linkedPages }) {
 				</a>
 			</h1>
 			<button
-				style={{ backgroundImage: `url(${MenuButton.src})` }}
+				style={{
+					backgroundImage: `url(${
+						mobileMenuOpen ? OpenMenuButton.src : ClosedMenuButton.src
+					})`,
+				}}
 				className="toggle-mobile-menu"
 				title="Open mobile menu"
 			></button>
