@@ -2,8 +2,8 @@ import Image from "next/image";
 
 import CallToActionButton from "./CallToActionButton";
 
-import Logo from "./../public/images/logo.svg";
-import MenuButton from "./../public/images/icon-hamburger.svg";
+import Logo from "./../../public/images/logo.svg";
+import MenuButton from "./../../public/images/icon-hamburger.svg";
 
 function Header({ linkedPages }) {
 	return (
