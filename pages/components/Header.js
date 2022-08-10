@@ -46,7 +46,8 @@ function Header({ linkedPages }) {
 				className="toggle-mobile-menu"
 				title="Open mobile menu"
 			></button>
-			<nav>
+
+			<nav className={mobileMenuOpen ? "mobile-menu-open" : ""}>
 				{linkedPages.map((page, index) => (
 					<a key={page + "-" + index} href="#">
 						{page}
