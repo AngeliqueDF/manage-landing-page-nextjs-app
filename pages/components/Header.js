@@ -37,6 +37,7 @@ function Header({ linkedPages }) {
 				</a>
 			</h1>
 			<button
+				onClick={handleToggleBtnClick}
 				style={{
 					backgroundImage: `url(${
 						mobileMenuOpen ? OpenMenuButton.src : ClosedMenuButton.src
