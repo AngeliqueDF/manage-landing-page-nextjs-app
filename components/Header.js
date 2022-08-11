@@ -4,9 +4,9 @@ import Image from "next/image";
 
 import CallToActionButton from "./CallToActionButton";
 
-import Logo from "./../../public/images/logo.svg";
-import ClosedMenuButton from "./../../public/images/icon-hamburger.svg";
-import OpenMenuButton from "./../../public/images/icon-close.svg";
+import Logo from "./../public/images/logo.svg";
+import ClosedMenuButton from "./../public/images/icon-hamburger.svg";
+import OpenMenuButton from "./../public/images/icon-close.svg";
 
 function Header({ linkedPages }) {
 	// Fix reference error, document is undefined
@@ -36,6 +36,7 @@ function Header({ linkedPages }) {
 					<Image src={Logo} alt="Manage"></Image>
 				</a>
 			</h1>
+
 			<button
 				onClick={handleToggleBtnClick}
 				style={{
@@ -49,7 +50,7 @@ function Header({ linkedPages }) {
 
 			<nav className={mobileMenuOpen ? "mobile-menu-open" : ""}>
 				{linkedPages.map((page, index) => (
-					<a key={page + "-" + index} href="#">
+					<a key={page + "-" + index} href="javascript:void(0);">
 						{page}
 					</a>
 				))}
