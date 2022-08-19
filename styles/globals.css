@@ -255,6 +255,26 @@ body.mobile-menu-open::after {
 	font-size: 1rem;
 	line-height: 1rem;
 }
+
+/* Displaying the features' counter */
+.single-feature::before {
+	content: counter(features-counter, decimal-leading-zero);
+	counter-increment: features-counter;
+	background: var(--bright-red);
+	border-radius: 3rem;
+	display: inline-block;
+	line-height: 2rem;
+	color: white;
+	text-align: center;
+	margin-right: 0.5rem;
+
+	position: absolute;
+	padding: 0rem 1.2rem;
+
+	z-index: 1;
+}
+/* End displaying the features' counter */
+
 .single-feature {
 	font-size: 0.9rem;
 	min-height: 20vh;
