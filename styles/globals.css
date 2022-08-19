@@ -250,7 +250,7 @@ body.mobile-menu-open::after {
 	grid-column-start: 2;
 	background-color: var(--very-pale-red);
 	padding: 0.5rem 0.5rem 0.5rem 3rem;
-	margin-inline-start: 1rem;
+	margin-inline-start: 1.2rem;
 	margin-block-end: 1rem;
 	font-size: 1rem;
 	line-height: 1rem;
