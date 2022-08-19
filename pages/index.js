@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 import Header from "../components/Header";
+import Hero from "../components/Hero";
 
 export default function Home() {
 	const data = {
@@ -11,6 +12,11 @@ export default function Home() {
 			title: "Manage landing page",
 		},
 		linkedPages: ["Pricing", "Product", "About", "Careers", "Community"],
+		heroSection: {
+			heading: "Bring everyone together to build better products.",
+			copyText:
+				"Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.",
+		},
 	};
 	return (
 		<div className={styles.container}>
@@ -22,6 +28,7 @@ export default function Home() {
 
 			<Header linkedPages={data.linkedPages} />
 
+			<Hero {...data.heroSection} />
 		</div>
 	);
 }
