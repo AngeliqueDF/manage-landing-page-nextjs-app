@@ -8,7 +8,7 @@
 
 ## Overview
 
-_Template files for writing maintanable GitHub projects. Make your repo pretty!_
+_The Manage landing page project converted to a Next app!_
 
 [![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/AngeliqueDF/manage-landing-page-nextjs-app)
 <br />
