@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Features from "../components/Features";
 
 export default function Home() {
 	const data = {
@@ -54,6 +55,10 @@ export default function Home() {
 			<Header linkedPages={data.linkedPages} />
 
 			<Hero {...data.heroSection} />
+
+			<main>
+				<Features {...data.featuresSection} />
+			</main>
 		</div>
 	);
 }
