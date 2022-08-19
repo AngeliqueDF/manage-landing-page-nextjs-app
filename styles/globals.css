@@ -612,7 +612,19 @@ footer input[type="submit"] {
 		font-size: 1.1rem;
 		line-height: 1.6rem;
 	}
+
+	.single-feature {
+		min-height: unset;
+		display: grid;
+		grid-template-columns: 5rem 1fr;
+		grid-template-rows: unset;
+		width: 96%;
 	}
+	.single-feature::before {
+		padding: 0.7rem 0;
+		line-height: 1rem;
+		height: 1rem;
+		width: 4rem;
 	}
 	}
 	}
