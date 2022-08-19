@@ -11,6 +11,11 @@ export default function Home() {
 			title: "Manage landing page",
 		},
 		linkedPages: ["Pricing", "Product", "About", "Careers", "Community"],
+		heroSection: {
+			heading: "Bring everyone together to build better products.",
+			copyText:
+				"Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.",
+		},
 	};
 	return (
 		<div className={styles.container}>
