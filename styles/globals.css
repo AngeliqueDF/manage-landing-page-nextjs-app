@@ -257,6 +257,13 @@ body.mobile-menu-open::after {
 }
 .single-feature {
 	font-size: 0.9rem;
+	min-height: 20vh;
+	height: fit-content;
+	margin: unset;
+	margin-block-end: 2rem;
+
+	/* The counter will be positioned relatively to this element */
+	position: relative;
 }
 .feature-copy {
 }
