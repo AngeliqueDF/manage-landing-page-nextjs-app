@@ -285,6 +285,7 @@ body.mobile-menu-open::after {
 	/* The counter will be positioned relatively to this element */
 	position: relative;
 }
+
 .feature-copy {
 	font-size: 0.8rem;
 	padding-inline-end: 1rem;
@@ -592,50 +593,59 @@ footer input[type="submit"] {
 	/* END HERO SECTION */
 
 	/* FEATURES SECTION */
-	.features > div h2 {
-		font-size: 2.1rem;
-	}
 	.features {
 		display: flex;
 		justify-content: space-between;
 	}
-	.features li {
-		min-height: unset;
-		grid-template-columns: 5rem 1fr;
-
-		width: 91%;
-	}
-	.features li::before {
-		padding: 1.3rem 0;
-		line-height: 0.2rem;
-	}
-	.features .copy {
+	.features .main-copy {
+		text-align: unset;
 		padding: unset;
-		width: 32%;
+		width: 50%;
 	}
-	.features .copy p {
-		padding-right: 2.2rem;
-	}
-	.features ol {
-		width: 47%;
-	}
-	.feature-short {
-		background-color: unset;
-	}
-	.feature-short + p {
-		grid-column-start: 2;
-	}
-	.features > div h2 {
+	.features .main-copy h2 {
 		line-height: 2.5rem;
-		font-size: 2.1rem;
+		font-size: 2.3rem;
 	}
-	.features .copy {
-		width: 34%;
-	}
-	.features .copy p {
+	.features .main-copy p {
+		width: 58%;
 		padding-right: 2.2rem;
 		font-size: 1.1rem;
 		line-height: 1.6rem;
+	}
+
+	.single-feature {
+		min-height: unset;
+		display: grid;
+		grid-template-columns: 5rem 1fr;
+		grid-template-rows: unset;
+		width: 96%;
+	}
+	.single-feature::before {
+		padding: 0.7rem 0;
+		line-height: 1rem;
+		height: 1rem;
+		width: 4rem;
+	}
+
+	.features-list {
+		width: 47%;
+	}
+
+	.features-list article {
+		grid-column-start: 2;
+	}
+
+	.feature-heading {
+		background-color: unset;
+		margin: 0.7rem 0;
+		padding: unset;
+	}
+
+	.feature-copy {
+		grid-column-start: 2;
+		margin-block-start: 1rem;
+		font-size: 1rem;
+		padding: unset;
 	}
 	/* END FEATURES SECTION */
 
