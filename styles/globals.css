@@ -194,7 +194,6 @@ body.mobile-menu-open::after {
 	height: 100%;
 	position: fixed;
 	top: 0;
-	top: 4rem;
 	right: 0;
 	left: 0;
 	bottom: 0;
