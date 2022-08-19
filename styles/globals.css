@@ -626,9 +626,26 @@ footer input[type="submit"] {
 		height: 1rem;
 		width: 4rem;
 	}
+
+	.features-list {
+		width: 47%;
 	}
+
+	.features-list article {
+		grid-column-start: 2;
 	}
+
+	.feature-heading {
+		background-color: unset;
+		margin: 0.7rem 0;
+		padding: unset;
 	}
+
+	.feature-copy {
+		grid-column-start: 2;
+		margin-block-start: 1rem;
+		font-size: 1rem;
+		padding: unset;
 	}
 	/* END FEATURES SECTION */
 
