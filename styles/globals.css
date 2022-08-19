@@ -110,20 +110,6 @@ li {
 	counter-increment: counter;
 	margin: 0.25rem;
 }
-.features li::before {
-	content: counter(features-counter, decimal-leading-zero);
-	counter-increment: features-counter;
-	background: var(--bright-red);
-	border-radius: 3rem;
-	display: inline-block;
-	line-height: 2rem;
-	color: white;
-	text-align: center;
-	margin-right: 0.5rem;
-
-	position: static;
-	z-index: 1;
-}
 
 footer li {
 	list-style-type: none;
