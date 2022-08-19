@@ -285,6 +285,7 @@ body.mobile-menu-open::after {
 	/* The counter will be positioned relatively to this element */
 	position: relative;
 }
+
 .feature-copy {
 	font-size: 0.8rem;
 	padding-inline-end: 1rem;
@@ -596,11 +597,20 @@ footer input[type="submit"] {
 		display: flex;
 		justify-content: space-between;
 	}
+	.features .main-copy {
+		text-align: unset;
+		padding: unset;
+		width: 50%;
 	}
+	.features .main-copy h2 {
+		line-height: 2.5rem;
+		font-size: 2.3rem;
 	}
-	}
-	.features .copy p {
+	.features .main-copy p {
+		width: 58%;
 		padding-right: 2.2rem;
+		font-size: 1.1rem;
+		line-height: 1.6rem;
 	}
 	}
 	}
