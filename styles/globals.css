@@ -207,7 +207,7 @@ body.mobile-menu-open::after {
 	flex-direction: column;
 	margin: unset;
 	padding-bottom: 6rem;
-	/* background-image: url(/src/images/bg-tablet-pattern.svg); */
+	background-image: url("./../public/images/bg-tablet-pattern.svg");
 	background-repeat: no-repeat;
 	background-position: top 27rem right -15rem;
 	background-size: 100% auto;
