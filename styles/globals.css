@@ -266,6 +266,7 @@ body.mobile-menu-open::after {
 	position: relative;
 }
 .feature-copy {
+	font-size: 0.8rem;
 	padding-inline-end: 1rem;
 }
 /* END FEATURES SECTION */
