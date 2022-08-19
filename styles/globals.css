@@ -224,6 +224,11 @@ body.mobile-menu-open::after {
 	margin-bottom: 1rem;
 	line-height: 1.8rem;
 }
+
+.hero-illustration {
+	max-width: 92%;
+	margin: 0 auto;
+}
 /* END HERO SECTION */
 
 .hero > div h2,
