@@ -237,7 +237,13 @@ body.mobile-menu-open::after {
 	padding: unset;
 	margin-left: 1rem;
 }
+.feature-heading,
+.feature-copy {
+	margin: 0;
+	padding: 0;
 }
+
+.feature-heading {
 	color: var(--dark-blue);
 	font-weight: 700;
 	margin: unset;
