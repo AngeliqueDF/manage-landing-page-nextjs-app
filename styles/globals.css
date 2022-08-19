@@ -71,7 +71,7 @@ body {
 	font-family: "Be Vietnam Pro", sans-serif;
 	font-size: 16px;
 	color: var(--dark-blue);
-	/* background-image: url("./../images/bg-tablet-pattern.svg"); */
+	background-image: url("./../public/images/bg-tablet-pattern.svg");
 	background-repeat: no-repeat;
 	background-position: top -16vh right -38vw;
 	background-size: 125% auto;
