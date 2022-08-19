@@ -255,7 +255,10 @@ body.mobile-menu-open::after {
 	font-size: 1rem;
 	line-height: 1rem;
 }
+.single-feature {
 	font-size: 0.9rem;
+}
+.feature-copy {
 }
 /* END FEATURES SECTION */
 
