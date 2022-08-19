@@ -47,14 +47,16 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 1rem 1.3rem;
+	position: sticky;
+	z-index: 3;
 }
 img {
 	width: 100%;
 	height: auto;
 }
-header img {
+header h1 {
 	margin-top: 1rem;
-	width: 80%;
+	width: 30%;
 }
 header .cta-button {
 	display: none;
@@ -69,7 +71,7 @@ body {
 	font-family: "Be Vietnam Pro", sans-serif;
 	font-size: 16px;
 	color: var(--dark-blue);
-	/* background-image: url("./../images/bg-tablet-pattern.svg"); */
+	background-image: url("./../public/images/bg-tablet-pattern.svg");
 	background-repeat: no-repeat;
 	background-position: top -16vh right -38vw;
 	background-size: 125% auto;
@@ -171,7 +173,7 @@ nav.mobile-menu-open {
 	background-color: white;
 	width: 85%;
 	height: 16rem;
-	top: 5rem;
+	top: 7rem;
 	left: 50%;
 	transform: translateX(-50%);
 	padding: 2rem 1rem;
@@ -185,14 +187,13 @@ body.mobile-menu-open::after {
 	background: linear-gradient(
 		0deg,
 		rgba(36, 45, 82, 1) 0%,
-		rgba(36, 45, 82, 0) 100%
+		rgba(36, 45, 82, 10%) 100%
 	);
 	opacity: 50%;
 	width: 100%;
 	height: 100%;
 	position: fixed;
 	top: 0;
-	top: 4rem;
 	right: 0;
 	left: 0;
 	bottom: 0;
