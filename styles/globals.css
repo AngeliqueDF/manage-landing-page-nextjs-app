@@ -677,11 +677,6 @@ footer input[type="submit"] {
 		width: 36rem;
 	}
 
-	.slider {
-		overflow-x: scroll;
-		scroll-snap-type: x proximity;
-	}
-
 	.slider article {
 		scroll-snap-align: start;
 		margin-right: 1.5rem;
