@@ -677,16 +677,10 @@ footer input[type="submit"] {
 		width: 36rem;
 	}
 
-	.slider {
-		overflow-x: scroll;
-		scroll-snap-type: x proximity;
-	}
-
 	.slider article {
-		scroll-snap-align: start;
-		margin-right: 1.5rem;
 		min-width: 41vw;
 		padding: 3rem 2rem;
+		min-height: 15rem;
 	}
 	.slider article img {
 		width: 4.75rem;
@@ -699,9 +693,9 @@ footer input[type="submit"] {
 
 	.slider p {
 		line-height: 2rem;
-		font-size: 1.3rem;
+		font-size: 1.1rem;
 	}
-	.slider-buttons {
+	.slider-indicators {
 		display: none;
 	}
 	/* END TESTIMONIALS SECTION */
