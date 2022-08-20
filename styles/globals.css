@@ -308,10 +308,12 @@ body.mobile-menu-open::after {
 	padding-top: 4rem;
 	display: flex;
 	align-items: center;
-	overflow: hidden;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
 	margin-bottom: 1rem;
 }
 .slider article {
+	scroll-snap-align: start;
 }
 .slider-indicators {
 	margin: 0 auto;
