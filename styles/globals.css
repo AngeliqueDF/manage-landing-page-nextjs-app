@@ -311,7 +311,9 @@ body.mobile-menu-open::after {
 	overflow: hidden;
 	margin-bottom: 1rem;
 }
-.slider-buttons {
+.slider article {
+}
+.slider-indicators {
 	margin: 0 auto;
 	width: 15%;
 	display: flex;
