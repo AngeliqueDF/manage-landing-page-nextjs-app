@@ -321,7 +321,7 @@ body.mobile-menu-open::after {
 	display: flex;
 	justify-content: space-between;
 }
-.slider-buttons button {
+.slider-indicators div {
 	content: "";
 	width: 0.1rem;
 	height: 0.1rem;
