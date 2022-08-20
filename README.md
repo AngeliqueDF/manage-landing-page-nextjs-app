@@ -1,7 +1,5 @@
 # Manage landing page, Next.js app.
 
-<!-- ![Screenshot of the REST countries API app](./placeholder.jpg) -->
-
 <div align="center">
   <img src="./logo-css3.svg">
 </div>
