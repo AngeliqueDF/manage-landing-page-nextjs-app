@@ -7,7 +7,6 @@ import Hero from "../components/Hero";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials/Testimonials";
 
-import Testimonials from "../components/Testimonials/Testimonials";
 // Profile pictures for slider
 import AnishaLiPicture from "./../public/images/avatar-anisha.png";
 import AliBravoPicture from "./../public/images/avatar-ali.png";
