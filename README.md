@@ -1,9 +1,5 @@
 # Manage landing page, Next.js app.
 
-<div align="center">
-  <img src="./logo-css3.svg">
-</div>
-
 ## Overview
 
 _The Manage landing page project converted to a Next app!_
