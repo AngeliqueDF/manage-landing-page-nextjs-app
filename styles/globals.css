@@ -678,8 +678,6 @@ footer input[type="submit"] {
 	}
 
 	.slider article {
-		scroll-snap-align: start;
-		margin-right: 1.5rem;
 		min-width: 41vw;
 		padding: 3rem 2rem;
 	}
