@@ -334,12 +334,13 @@ body.mobile-menu-open::after {
 	background-color: var(--bright-red) !important;
 }
 .slider article {
-	min-width: 80vw;
-	min-height: 10rem;
-	margin: 0 0.5rem;
+	min-width: calc(100vw - 2rem);
+	box-sizing: border-box;
+	height: 14rem;
+	margin: 0 1rem;
 	position: relative;
 	text-align: center;
-	padding: 2rem 1rem;
+	padding: 2rem 1.2rem;
 	font-size: 0.9rem;
 	background-color: var(--very-light-gray);
 }
