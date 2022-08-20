@@ -680,6 +680,7 @@ footer input[type="submit"] {
 	.slider article {
 		min-width: 41vw;
 		padding: 3rem 2rem;
+		min-height: 15rem;
 	}
 	.slider article img {
 		width: 4.75rem;
