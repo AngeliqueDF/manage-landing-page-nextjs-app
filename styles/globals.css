@@ -308,16 +308,20 @@ body.mobile-menu-open::after {
 	padding-top: 4rem;
 	display: flex;
 	align-items: center;
-	overflow: hidden;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
 	margin-bottom: 1rem;
 }
-.slider-buttons {
+.slider article {
+	scroll-snap-align: start;
+}
+.slider-indicators {
 	margin: 0 auto;
 	width: 15%;
 	display: flex;
 	justify-content: space-between;
 }
-.slider-buttons button {
+.slider-indicators div {
 	content: "";
 	width: 0.1rem;
 	height: 0.1rem;
@@ -326,16 +330,17 @@ body.mobile-menu-open::after {
 	border-radius: 100%;
 	background-color: white;
 }
-.current-slider {
+.current-slide {
 	background-color: var(--bright-red) !important;
 }
 .slider article {
-	min-width: 80vw;
-	min-height: 10rem;
-	margin: 0 0.5rem;
+	min-width: calc(100vw - 2rem);
+	box-sizing: border-box;
+	height: 14rem;
+	margin: 0 1rem;
 	position: relative;
 	text-align: center;
-	padding: 2rem 1rem;
+	padding: 2rem 1.2rem;
 	font-size: 0.9rem;
 	background-color: var(--very-light-gray);
 }
