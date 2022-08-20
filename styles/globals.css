@@ -330,7 +330,7 @@ body.mobile-menu-open::after {
 	border-radius: 100%;
 	background-color: white;
 }
-.current-slider {
+.current-slide {
 	background-color: var(--bright-red) !important;
 }
 .slider article {
