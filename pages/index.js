@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Features from "../components/Features";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 import Testimonials from "../components/Testimonials/Testimonials";
 // Profile pictures for slider
@@ -106,6 +107,8 @@ export default function Home() {
 
 			<main>
 				<Features {...data.featuresSection} />
+				<Testimonials {...data.testimonialsSection} />
+
 			</main>
 		</div>
 	);
