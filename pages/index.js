@@ -14,6 +14,13 @@ import AliBravoPicture from "./../public/images/avatar-ali.png";
 import RichardWattsPicture from "./../public/images/avatar-richard.png";
 import ShanaiGoughPicture from "./../public/images/avatar-shanai.png";
 
+// Icons for social links
+import FacebookIcon from "./../public/images/icon-facebook.svg";
+import YoutubeIcon from "./../public/images/icon-youtube.svg";
+import TwitterIcon from "./../public/images/icon-twitter.svg";
+import PinterestIcon from "./../public/images/icon-pinterest.svg";
+import InstagramIcon from "./../public/images/icon-instagram.svg";
+
 export default function Home() {
 	const data = {
 		seo: {
