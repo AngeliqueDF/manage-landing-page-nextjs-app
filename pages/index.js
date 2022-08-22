@@ -91,6 +91,9 @@ export default function Home() {
 				},
 			],
 		},
+		callToActionSection: {
+			copyText: "Simplify how your team works today.",
+		},
 	};
 	return (
 		<div className={styles.container}>
