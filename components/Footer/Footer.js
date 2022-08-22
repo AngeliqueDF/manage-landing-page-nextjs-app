@@ -42,7 +42,11 @@ function Footer({ socialNetworks, sitemapLinks }) {
 			<div className="attribution">
 				<small>
 					Challenge by
-					<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+					<a
+						href="https://www.frontendmentor.io?ref=challenge"
+						target="_blank"
+						rel="noreferrer"
+					>
 						Frontend Mentor
 					</a>
 					. Coded by <a href="https://adf.dev">Angélique D. Faye</a>.
