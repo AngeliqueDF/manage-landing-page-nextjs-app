@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials/Testimonials";
 import CallToActionSection from "../components/CallToActionSection";
+import Footer from "../components/Footer/Footer";
 
 // Profile pictures for slider
 import AnishaLiPicture from "./../public/images/avatar-anisha.png";
@@ -174,6 +175,7 @@ export default function Home() {
 			],
 		},
 	};
+
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -192,6 +194,8 @@ export default function Home() {
 
 				<CallToActionSection {...data.callToActionSection} />
 			</main>
+
+			<Footer {...data.footerSection} />
 		</div>
 	);
 }
