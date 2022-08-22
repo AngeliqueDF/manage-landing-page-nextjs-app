@@ -102,6 +102,77 @@ export default function Home() {
 		callToActionSection: {
 			copyText: "Simplify how your team works today.",
 		},
+		footerSection: {
+			socialNetworks: [
+				{
+					id: 0,
+					icon: FacebookIcon,
+					altText: "Our Facebook page.",
+					url: null,
+				},
+				{
+					id: 1,
+					icon: YoutubeIcon,
+					altText: "Our YouTube channel.",
+					url: null,
+				},
+				{
+					id: 2,
+					icon: TwitterIcon,
+					altText: "Our Twitter page.",
+					url: null,
+				},
+				{
+					id: 3,
+					icon: PinterestIcon,
+					altText: "Our Pinterest board.",
+					url: null,
+				},
+				{
+					id: 4,
+					icon: InstagramIcon,
+					altText: "Our Intagram page.",
+					url: null,
+				},
+			],
+			sitemapLinks: [
+				{
+					id: 0,
+					content: "Home",
+					url: null,
+				},
+				{
+					id: 1,
+					content: "Careers",
+					url: null,
+				},
+				{
+					id: 2,
+					content: "Pricing",
+					url: null,
+				},
+				{
+					id: 3,
+					content: "Community",
+					url: null,
+				},
+				{
+					id: 4,
+					content: "Products",
+					url: null,
+				},
+				{
+					id: 5,
+					content: "Privacy Policy",
+					url: null,
+				},
+				{
+					id: 6,
+					content: "About Us",
+					url: null,
+				},
+			],
+		},
 	};
 	return (
 		<div className={styles.container}>
