@@ -460,6 +460,7 @@ footer input[type="submit"] {
 	order: 1;
 	display: flex;
 	justify-content: space-between;
+	padding: unset;
 }
 .social-links a {
 	order: 2;
