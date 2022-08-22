@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials/Testimonials";
+import CallToActionSection from "../components/CallToActionSection";
 
 // Profile pictures for slider
 import AnishaLiPicture from "./../public/images/avatar-anisha.png";
@@ -91,6 +92,9 @@ export default function Home() {
 				},
 			],
 		},
+		callToActionSection: {
+			copyText: "Simplify how your team works today.",
+		},
 	};
 	return (
 		<div className={styles.container}>
@@ -108,6 +112,7 @@ export default function Home() {
 				<Features {...data.featuresSection} />
 				<Testimonials {...data.testimonialsSection} />
 
+				<CallToActionSection {...data.callToActionSection} />
 			</main>
 		</div>
 	);
