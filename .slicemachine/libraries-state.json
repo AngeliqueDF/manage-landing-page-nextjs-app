@@ -1,0 +1,148 @@
+{
+  "slices": {
+    "components": {
+      "feature_section": {
+        "library": "slices",
+        "id": "feature_section",
+        "name": "FeatureSection",
+        "description": "FeatureSection",
+        "model": {
+          "id": "feature_section",
+          "type": "SharedSlice",
+          "name": "FeatureSection",
+          "description": "FeatureSection",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "FeatureSection",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Although",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Nulla nulla ullamco cupidatat sint.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "feature_section"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "linked_pages": {
+        "library": "slices",
+        "id": "linked_pages",
+        "name": "LinkedPages",
+        "description": "LinkedPages",
+        "model": {
+          "id": "linked_pages",
+          "type": "SharedSlice",
+          "name": "LinkedPages",
+          "description": "LinkedPages",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "LinkedPages",
+              "primary": {},
+              "items": {
+                "link_text_content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "link text content",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "link_url": {
+                  "type": "Link",
+                  "config": {
+                    "label": "link_url",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "link_text_content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ex et in ea veniam.",
+                    "spans": []
+                  }
+                ],
+                "link_url": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              }
+            ],
+            "primary": {},
+            "slice_type": "linked_pages"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

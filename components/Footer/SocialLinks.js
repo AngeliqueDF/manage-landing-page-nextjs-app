@@ -6,8 +6,8 @@ const SocialLinks = ({ socialNetworks }) => {
 		<ul>
 			{socialNetworks.map((network) => (
 				<li key={network.id}>
-					<a href={network.url || "#/"}>
-						<img src={network.icon.src} />
+					<a href={"#/"}>
+						<img src={network.icon.url} alt={network.alt_text[0].text} />
 					</a>
 				</li>
 			))}

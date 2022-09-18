@@ -1,0 +1,18 @@
+{
+  "_cts": {
+    "landing_page": {
+      "header_links": {},
+      "features_section": {},
+      "social_networks": {}
+    },
+    "page": {}
+  },
+  "slices": {
+    "FeatureSection": {},
+    "LinkedPages": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}

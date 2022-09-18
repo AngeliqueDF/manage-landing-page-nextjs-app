@@ -1,0 +1,30 @@
+{
+  "id": "mock-doc-id",
+  "uid": "joy",
+  "url": "/joy",
+  "type": "page",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "title": [
+      {
+        "type": "paragraph",
+        "text": "Sunt adipisicing amet voluptate id nisi tempor. Duis cupidatat pariatur mollit eiusmod exercitation commodo. Cillum minim duis magna veniam.",
+        "spans": []
+      }
+    ],
+    "heading_1_text_content": [
+      {
+        "type": "paragraph",
+        "text": "Aliqua et ut aliquip pariatur nulla eu duis cillum proident.",
+        "spans": []
+      }
+    ]
+  }
+}
