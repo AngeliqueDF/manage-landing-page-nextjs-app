@@ -1,10 +1,10 @@
 // Stateless component to render single slides
-const SingleTestimonial = ({ review: { author, text }, testimonialIndex }) => {
+const SingleTestimonial = ({ review, testimonialIndex }) => {
 	return (
-		<article id={testimonialIndex} key={author.id}>
-			<img src={author.profilePicture.src} />
-			<h3>{author.name}</h3>
-			<p>{text}</p>
+		<article id={testimonialIndex}>
+			<img src={review.author_profile_picture.url} />
+			<h3>{review.author_name[0].text}</h3>
+			<p>{`“${review.review_text[0].text}“`}</p>
 		</article>
 	);
 };
@@ -12,17 +12,19 @@ const SingleTestimonial = ({ review: { author, text }, testimonialIndex }) => {
 /**
  * Displays the slider
  */
-const Slider = ({ reviews, visibleTestimonial }) => (
-	<div className="slider">
-		{reviews.map((review, index) => (
-			<SingleTestimonial
-				key={review.id}
-				review={review}
-				testimonialIndex={index}
-				visibleTestimonial={visibleTestimonial}
-			/>
-		))}
-	</div>
-);
+const Slider = ({ reviews, visibleTestimonial }) => {
+	return (
+		<div className="slider">
+			{reviews.map((review, index) => (
+				<SingleTestimonial
+					key={review.id}
+					review={review}
+					testimonialIndex={index}
+					visibleTestimonial={visibleTestimonial}
+				/>
+			))}
+		</div>
+	);
+};
 
 export default Slider;
